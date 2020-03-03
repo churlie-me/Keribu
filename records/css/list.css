@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+.titlebutton{
+	background: #FFF;
+	color: #033;
+	border: 2px solid #033;	
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align: center;
+	margin: 7px 0px;
+}
+.listcolor{
+	color: #FF8000;
+	padding-left: 13px;
+}
+#send{
+	background: #FF8000;
+	color: #FFF;
+}
+.confirmation{
+	display: none;	
+}
+.listavatar img{
+	position: relative;
+    float: left;
+    width:  200px;
+    height: 120px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+#update{
+	background: #033;
+	color: #FFF;
+}
+
+#deleteitem{
+	background: #A31029;
+	color: #FFF;
+}

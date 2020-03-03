@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700|PT+Sans+Narrow);
+@import url(https://dl.dropboxusercontent.com/s/47bpxxf7uffel09/style.css);
+.notification:after {
+  content: attr(data-count);
+  background: #cc0001;
+  border-radius: 3px;
+  color: #fff;
+  padding: 2px 5px;
+  top: 2px;
+  left: 23px;
+  position: absolute;
+}
+
+.dropdown-menu{
+	width: auto;	
+}

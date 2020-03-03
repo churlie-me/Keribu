@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+.appearance{
+	background-color: #E6E6E6;	
+}
+#title{
+	font-size: xx-large;
+	color: #033;	
+}
+#tips{
+	font-size: 18px;
+	color: #033;
+}
+#add{
+	font-size: 20px;
+	color: #FF8000;	
+	text-align: center;
+}
+.contained{
+	background: #00CC99;
+	padding: 10px;	
+}
+.aboutsearch{
+	border-radius: 10px;
+	background: #E6E6E6;
+	padding: 5px;	
+}
+.content{
+	padding-top: 15px;
+	padding-bottom: 15px;	
+}
+
+a.social-icons {
+	margin-right: 5px; /*Adjust This Value As Needed*/
+}
+
+a.social-icons:hover {
+	opacity: .7;
+	filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+.pagefooter{
+	background-color: #A6A6A6;	
+}
+.advertisement{
+	background: url(../images/online.jpg) no-repeat;
+	float: left;
+	width: 1349px;
+	height: 500px;
+    background-size: cover;	
+}
+.asteroid{
+	padding-top: 10px;	
+}
+.foe{
+	text-align: center;	
+}

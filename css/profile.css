@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+.body1 {
+	background:url(../images/bg.jpg) top center repeat;
+}
+.body2 {
+	background:url(../images/top.jpg) top center repeat-x;
+}
+.ing-profile{
+	position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+.background{
+	background: #FFF;
+	border: 1px solid #CCC;
+	padding: 10px;
+}

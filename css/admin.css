@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.nohover{
+	text-decoration: none;
+}
+
+.nohover : hover{
+	text-decoration: none;	
+}

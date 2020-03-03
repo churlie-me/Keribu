@@ -1,0 +1,65 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.divshape{
+	background-color: #ffffff;
+	height: auto;
+	width: auto;
+	border: 1px solid #ccc ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 1px 1px .5px #888888;
+}
+
+.regshape{
+	background-color: #ffffff;
+	height: auto;
+	width: auto;
+	border: 1px solid #ccc ;
+	border-radius: 10px;
+	margin-right: em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px .5px #888888;
+	padding: 10px;
+	
+}
+#terms{
+	font-style: normal;
+	text-align: center;
+}
+
+#space{
+	height: 60px;
+}
+
+.site{
+	background-color: #F0F0F0 ;
+	padding-left: 150px;
+}
+
+.base{
+	background-color: #F0F0F0 ;
+}
+
+#forsignup{
+	height: 30px;
+}
+
+.agent-field{
+	border-radius: 10px;
+	height: 65px;
+	width: 200px;
+	border: 0.5px solid gray ;
+	margin-right: em;
+	
+}
+
+.offhook {
+    margin-top: 20px;
+}
+
+.header-space {
+    margin-right: 300px;
+    float:right;
+}

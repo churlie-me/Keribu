@@ -1,0 +1,224 @@
+.body1 {
+	background:url(../images/bg.jpg) top center repeat;
+}
+.body2 {
+	background:url(../images/top.jpg) top center repeat-x;
+}
+.alert-dropdown{
+	margin-top: 15px;
+}
+.socialnet{
+	display: inline-block;
+	display: inline;
+}
+#social-media ul {
+	list-style:none;
+}
+.clear{
+	clear: left;
+}
+#social-media ul li	{
+	float: left; 
+	padding: 0px 7px;
+	}
+.communicate {
+	color: #F63;
+	padding-top: 20px;
+	text-align: justify; 
+}
+.privacy{
+	margin: 0px 30px;
+	text-align:justify;
+}
+
+/*row after advertising a few rooms*/
+.advmaking{
+	background: #D6CF9E;
+	height: auto;
+	padding: 20px;
+}
+.format{
+	text-height: 1em;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;	
+	text-align: center; 
+	padding-top: 20px;
+}
+
+.socialworks li a{
+	color: #F60;
+}
+/* Social Icons 
+----------------------------------------------- */
+
+a.social-icons {
+	margin-right: 5px; /*Adjust This Value As Needed*/
+}
+
+a.social-icons:hover {
+	opacity: .7;
+	filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700|PT+Sans+Narrow);
+@import url(https://dl.dropboxusercontent.com/s/47bpxxf7uffel09/style.css);
+.notification:after {
+  content: attr(data-count);
+  background: #cc0001;
+  border-radius: 3px;
+  color: #fff;
+  padding: 1px 5px;
+  top: 1px;
+  left: 23px;
+  position: absolute;
+}
+
+.notificationlimit{
+	width: 300px;
+	text-wrap: suppress;
+}
+
+.wrapcontent{
+	width: 245px;
+	white-space: pre-wrap;
+	/*
+	 width: 250px;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+	*/
+}
+.dropdown-menu{
+	border: 3px solid #0FC;
+	padding-top: 0px;
+}
+
+.alert-dropdown{
+	top: 50px;
+	padding: 0px;
+}
+
+/*style sheets for a login form */
+
+/*
+    Note: It is best to use a less version of this file ( see http://css2less.cc
+    For the media queries use @screen-sm-min instead of 768px.
+    For .omb_spanOr use @body-bg instead of white.
+*/
+
+@media (min-width: 768px) {
+    .omb_row-sm-offset-3 div:first-child[class*="col-"] {
+        margin-left: 25%;
+    }
+}
+
+.omb_login .omb_authTitle {
+    text-align: center;
+	line-height: 300%;
+}
+	
+.omb_login .omb_socialButtons a {
+	color: white; // In yourUse @body-bg 
+	opacity:0.9;
+}
+.omb_login .omb_socialButtons a:hover {
+    color: white;
+	opacity:1;    	
+}
+.omb_login .omb_socialButtons .omb_btn-facebook {background: #3b5998;}
+.omb_login .omb_socialButtons .omb_btn-twitter {background: #00aced;}
+.omb_login .omb_socialButtons .omb_btn-google {background: #c32f10;}
+
+
+.omb_login .omb_loginOr {
+	position: relative;
+	font-size: 1.5em;
+	color: #fff;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.omb_login .omb_loginOr .omb_hrOr {
+	background-color: #cdcdcd;
+	height: 1px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+.omb_login .omb_loginOr .omb_spanOr {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -0.6em;
+	margin-left: -1.5em;
+	background-color: #cdcdcd;
+	width: 3em;
+	text-align: center;
+}			
+
+.omb_login .omb_loginForm .input-group.i {
+	width: 2em;
+}
+.omb_login .omb_loginForm  .help-block {
+    color: red;
+}
+
+	
+@media (min-width: 768px) {
+    .omb_login .omb_forgotPwd {
+        text-align: right;
+		margin-top:10px;
+ 	}		
+}
+/**********************************************************************************/
+
+.headercontent{
+	alignment-adjust:central;
+	text-align: center;
+	width: auto;
+	height: auto;
+	background-color:#DADADA;
+	border: 1px solid #ccc ;
+	border-bottom: 1px solid transparent;
+	padding: 5px;	
+}
+.advertbtn{
+	background:#FF8000;
+	color: #fff;
+	border: 1px solid #FF8000;	
+	margin-top: -8px;
+	margin-bottom: -7px;
+}
+.advertbtn:hover{
+	background:#FF8000;
+	color: #fff;
+	border: 1px solid #FF8000;	
+}
+
+.advertbtn:focus{
+	background:#FF8000;
+	color: #fff;
+	border: 1px solid #FF8000;
+}
+
+.profile_advertbtn{
+	background:#FF8000;
+	color: #fff;
+	border: 1px solid #FF8000;	
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+.profile_advertbtn:hover{
+	background:#FF8000;
+	color: #fff;
+	border: 1px solid #FF8000;	
+}
+
+.profile_advertbtn:focus{
+	background:#FF8000;
+	color: #fff;
+	border: 1px solid #FF8000;	
+}
+.small-centered {
+margin-left: auto;
+margin-right: auto;
+float: none !important; }

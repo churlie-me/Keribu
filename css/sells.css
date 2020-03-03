@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+.override{
+	background-color:#FFF;
+}
+
+.web{
+	padding-top: 30px;
+	margin-left: 50px;
+	font-size: 33px;
+	font-family:"Comic Sans MS", cursive;
+}
+
+.what{
+	margin-left: 20px;
+	font-size: 18px;
+	font-family:"Comic Sans MS", cursive;
+}
+#hr{
+	background-color:#000;
+}
+.head1{
+	alignment-adjust:central;
+	width: auto;
+	height: auto;
+	background-color:#e0e0e0;
+	border: 1px solid #CCC ;
+	padding: 5px;
+}
+
+.content1{
+	alignment-adjust:central;
+	width: auto;
+	height: auto;
+	background-color:#FFFFFF;
+	border: 1px solid #CCC ;
+	border-top: 1px solid transparent;
+	padding: 5px;
+}
+.google{
+	alignment-adjust:central;
+	width: auto;
+	height: auto;
+	background-color:#FFFFFF;
+	border: 1px solid #CCC ;
+	padding: 5px;
+	margin: 20px;
+}
+.post{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 5px;
+	margin-bottom: 50px;
+}
+
+.posted{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.freespace{
+	margin-bottom: 205px;
+}
+.posta{
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+	.take{
+		margin-left: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-right: 0px;
+		}
+.limit{
+	height: auto;
+	}
+.limit1{
+	height: auto;
+	}
+.limit2{
+	height: auto;
+	}
+.done{
+	height: 100px;
+}
+.finalise{
+	background-color: #366;
+	color: #FFF;
+	width: 100px;
+}
+.sell{
+	background-color: #066;
+	color:#FFF;
+}
+
+.fileUpload {
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+}
+.fileUpload input.upload {
+	background: #FF8000;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.img{
+	width: 100px;
+	height: 100px;	
+}
+
+.fileUpload{
+	margin: 4px 4px;
+	 background: #FF8000; 
+	 border: solid #FF8000;
+}
